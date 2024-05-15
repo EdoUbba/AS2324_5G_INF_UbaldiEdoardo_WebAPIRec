@@ -17,5 +17,15 @@ namespace AS2324_5G_INF_UbaldiEdoardo_WebAPIRec.Controllers
                 });
         }
 
+        [HttpGet("volume_cylinder")]
+        public JsonResult volume_cylinder(double radius, double height)
+        {
+            return new JsonResult(
+                new
+                {
+                    risultato = Math.PI * Math.Pow(radius, 2) * height,
+                });
+        }
+
     }
 }
