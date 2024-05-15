@@ -14,6 +14,7 @@ namespace AS2324_5G_INF_UbaldiEdoardo_WebAPIRec.Controllers
                 new
                 {
                     risultato = (celsius * 9 / 5) + 32,
+                    message = "Risultato",
                 });
         }
 
@@ -24,6 +25,7 @@ namespace AS2324_5G_INF_UbaldiEdoardo_WebAPIRec.Controllers
                 new
                 {
                     risultato = Math.PI * Math.Pow(radius, 2) * height,
+                    message = "Risultato",
                 });
         }
 
