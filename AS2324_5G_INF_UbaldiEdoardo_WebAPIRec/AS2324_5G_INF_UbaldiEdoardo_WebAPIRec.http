@@ -1,0 +1,6 @@
+@AS2324_5G_INF_UbaldiEdoardo_WebAPIRec_HostAddress = http://localhost:5046
+
+GET {{AS2324_5G_INF_UbaldiEdoardo_WebAPIRec_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
